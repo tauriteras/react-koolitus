@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.nupp {
+  margin: 2rem;
+
+  background-color: rgb(237, 70, 70);
+  color: white;
+  border: 2px solid black;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+
+  font-size: 2rem;
+}
+
+.nupp:hover {
+  background-color: white;
+  color: rgb(237, 70, 70);
+  cursor: pointer;
+  transition: 100ms ease-in;
+  -webkit-transition: 100ms ease-in;
+  -moz-transition: 100ms ease-in;
+  -ms-transition: 100ms ease-in;
+  -o-transition: 100ms ease-in;
+
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.nupp:active {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+
+.pilt {
+  width: 20vw;
+  aspect-ratio: maintain;
+}
+
+.pilt:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.pilt:active {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
