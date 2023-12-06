@@ -44,6 +44,22 @@
   -o-transform: scale(0.95);
 }
 
+.nupp__like {
+  background: none;
+  border: none;
+}
+
+.nupp__like:hover {
+  background: none;
+}
+
+.nupp:disabled {
+  background-color: rgb(134, 134, 134);
+  color: rgb(0, 0, 0);
+
+  border: 2px solid rgb(77, 77, 77);
+}
+
 .pilt {
   width: 20vw;
   aspect-ratio: maintain;
