@@ -24,7 +24,7 @@ export default function Avaleht() {
             <span>{meeldib && kogus >= 10 && <img src='./legendaarne.svg' alt='' />}</span>
         </button>
         <br />
-        <p onClick={() => uuendaSonumit('Ai!')}>{sonum}</p>
+        <p onClick={() => uuendaSonumit('Ai!')}><span className={kogus >= 10 ? 'kuldne' : undefined}>{sonum}</span></p>
         <br />
         <button className="nupp" onClick={uuendaJaNulli}>Reseti</button>
     </div>

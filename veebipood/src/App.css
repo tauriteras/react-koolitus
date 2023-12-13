@@ -80,3 +80,22 @@
   -ms-transform: scale(0.95);
   -o-transform: scale(0.95);
 }
+
+
+.tume {
+  background-color: rgb(77, 77, 77);
+  color: white;
+
+  min-height: 100vh;
+}
+
+.hele {
+  background-color: white;
+  color: rgb(77, 77, 77);
+
+  min-height: 100vh;
+}
+
+.kuldne__kiri {
+  color: gold
+}
